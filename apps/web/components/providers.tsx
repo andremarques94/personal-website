@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { ThemeProvider as NextThemesProvider } from "next-themes"
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { PropsWithChildren } from "react";
 
-export function Providers({ children }: { children: React.ReactNode }) {
+export function Providers({ children }: PropsWithChildren) {
   return (
     <NextThemesProvider
       attribute="class"
@@ -14,5 +14,5 @@ export function Providers({ children }: { children: React.ReactNode }) {
     >
       {children}
     </NextThemesProvider>
-  )
+  );
 }
