@@ -1,0 +1,21 @@
+commit_regex='^(feat|fix|ci)(\(.+\))?: .{1,50}'
+
+if ! grep -qE "$commit_regex" "$1"; then
+    echo "❌ Invalid commit message format!"
+    echo ""
+    echo "Commit message should follow the format:"
+    echo "  <type>(<scope>): <description>"
+    echo ""
+    echo "Types: feat, fix, ci"
+    echo "Scope: optional, describes the area of codebase"
+    echo "Description: brief description (max 50 chars)"
+    echo ""
+    echo "Examples:"
+    echo "  feat: add user authentication"
+    echo "  fix(api): resolve login timeout issue"
+    echo "  ci: update dependencies"
+    echo ""
+    exit 1
+fi
+
+echo "✅ Commit message format is valid!"
