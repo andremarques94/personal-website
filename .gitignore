@@ -34,3 +34,19 @@ npm-debug.log*
 # Misc
 .DS_Store
 *.pem
+
+# IDEs and editors
+.vscode/
+!.vscode/*.example
+
+# Cursor IDE
+.cursor/settings.json
+.cursor/extensions.json
+.cursor/keybindings.json
+.cursor/snippets/
+.cursor/workspaceStorage/
+
+# Zed IDE
+.zed/settings.json
+.zed/keymap.json
+.zed/tasks.json

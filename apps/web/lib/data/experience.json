@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "EngineAI",
+    "years": "2024 - 2025",
+    "description": "Helping build the core features of a business intelligence platform that lets users create their own data visualization dashboards without needing to write much(or any) code.The platform also makes it easier for users to understand and explore their data, thanks to built-in assistant tools they can set up themselves. Additionally, I have had the opportunity to work on rapid prototypes for external clients, showcasing the range and quality of solutions our company provides.",
+    "badges": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "React",
+      "Redux",
+      "Node.js",
+      "GraphQL",
+      "Apollo",
+      "TypeORM",
+      "Docker",
+      "Vitest",
+      "Jest",
+      "Express.js",
+      "FastAPI",
+      "Github Actions",
+      "MaterialUI",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "title": "Software Developer",
+    "company": "Code For All_",
+    "years": "2021 - 2024",
+    "description": "Worked on a full-stack app for internal management of both employees and students. The platform is also used for the bootcamps admission process.",
+    "badges": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Hapi",
+      "knex.js",
+      "Objection.js",
+      "PostgreSQL",
+      "SQLite",
+      "Jest",
+      "Cypress",
+      "Bootstrap",
+      "Styled-Components"
+    ]
+  },
+  {
+    "title": "Software Developer",
+    "company": "Code For All_",
+    "years": "2021 - 2024",
+    "description": "Created an application for accelerated content creation. It transforms markdown files into interactive slide presentations for deployment through AWS, while also enhancing the markdown language with additional features.",
+    "badges": ["JavaScript", "Node.js", "CSS", "Markdown", "esbuild"]
+  },
+  {
+    "title": "Lead Programming Teacher",
+    "company": "Code For All_",
+    "years": "2021 - 2024",
+    "description": "I worked in both the in-person programming course and asynchronous online courses, leading my teams to help individuals become programmers in just 14 weeks. Alongside teaching, I contributed to maintaining the syllabus and creating mini-courses to further enrich the curriculum.",
+    "badges": [
+      "Java",
+      "REST",
+      "SpringMVC",
+      "Hibernate",
+      "Spring",
+      "JUnit",
+      "Mockito",
+      "MySQL",
+      "Maven",
+      "Thymeleaf",
+      "PostgreSQL",
+      "Reflection",
+      "Tomcat",
+      "JavaScript",
+      "Node.js",
+      "CSS",
+      "HTML",
+      "Tailwind",
+      "jQuery"
+    ]
+  }
+]
